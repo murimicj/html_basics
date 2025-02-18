@@ -1,0 +1,136 @@
+
+#container1{
+    display: flex;
+}
+
+/* #main{
+    display: flex;
+    background-color: gray;
+    margin-left: 5px;
+   
+} */
+
+.one{
+   background-color: blueviolet;
+    
+}
+.two{
+    margin-left: 10px;
+    background-color: rgb(167, 21, 135);
+}
+
+.three{
+    background-color: blue;
+    margin-left: 10px ;
+}
+
+  
+    
+#main{
+    display: flex;
+}
+
+/* Overall form styling */
+form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Legend styling */
+legend {
+    font-size: 24px;
+    color: #ff6600; /* Orange theme color */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    color: #0044cc; /* Blue theme color */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0044cc; /* Blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff; /* White background */
+    transition: all 0.3s ease;
+}
+
+/* Placeholder color */
+input::placeholder {
+    color: #bbbbbb;
+}
+
+/* Input focus styling */
+input:focus {
+    border-color: #ff6600; /* Orange color on focus */
+    outline: none;
+}
+
+/* Radio buttons */
+input[type="radiobutton"] {
+    margin-right: 10px;
+}
+
+/* Gender label styling */
+#gender {
+    margin-top: 10px;
+    display: block;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #0044cc; /* Blue background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #ff6600; /* Orange on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {     /* For screens with a maximum width of 600px */
+
+    form {
+        padding: 15px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        padding: 10px;
+    }
+}
+
+ 

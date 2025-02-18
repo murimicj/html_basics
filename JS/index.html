@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introductionto JavaScript</title>
+    <!-- 3. Use of an external JS file -->
+     
+    <!-- 2.Internal Javascript -->
+     <script>
+        ///javascript code here
+        function clicklink(){
+            alert('This JS code is from Internal JS')
+        }
+     </script>
+
+     <style>
+        p{
+            color: blue;
+            background-color: orange;
+
+        }
+
+     </style>
+</head>
+<body>
+    <p id="p-one">This is a basic/default paragraph</p>
+    <!--1. inline javascript -->
+    <button onclick="alert('This is my first piece of code in JS')">Click Me!</button>
+    <a href="#" onclick="clicklink()">Click This One Too!</a>
+    <input onclick=" secondButton()" type="button" value="Click This Lastly">
+
+
+    <form action="">
+        <label for="name">username:</label>
+        <input type="text" id="name" placeholder="Enter your name"><BR></BR>
+        <button id="mySubmit">Submit</button>
+        <label for="countries">Country: </label>
+        <select name="" id="countries"></select>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
